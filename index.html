@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="S.Register.css" />
+</head>
+<body>
+  <div class="register-container">
+    <form class="register-form">
+      <h2>Student Registration Form</h2>
+      
+      <input type="text" placeholder="Full Name" required />
+      <input type="text" placeholder="Student ID" required />
+      <input type="email" placeholder="Email ID" required />
+      <input type="text" placeholder="Course / Year" required />
+      <input type="tel" placeholder="Phone Number" required pattern="[0-9]{10}" />
+      <input type="password" placeholder="Password" required />
+      <input type="password" placeholder="Confirm Password" required />
+      
+      <button type="submit">Register</button>
+      
+      <p>Already have an account? <a href="#">Login</a></p>
+    </form>
+  </div>
+</body>
+</html>
